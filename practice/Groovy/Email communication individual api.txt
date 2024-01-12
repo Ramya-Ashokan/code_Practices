@@ -1,0 +1,16 @@
+                       VirginMedia -Ireland Project
+Email communication individual api
+Ticket subject:aws email tracking table cust_cons  update all the records in modified column
+story point:1.5
+priority:medium
+label:table name
+ticket solving :problem in table join,instead of join two different table ,they write  the join query using  same table .So ,in SSMS the developer  , correct it and test it in UAT.Then post it as ticket solved and informed to higher official.In this project the developer could handle all kind of issues from both frontend and backend.She can also develop new features.In this project they can use c#,.Net,SSMS,hangFire Jobs.She can work for Virgin Media Ireland project.It has so many web application like comet ,connected patners,temper,Dcom.It is the huge project in Ireland.This team could solve so many application.
+
+
+Most Sprint Taken Ticket:RPA Status name Mismatch
+         
+It is a kind of task to analyse.
+storypoint:2
+scrum Master:Mathew
+His work is to monitor the tickets and move to next sprint  and extend the date.If the ticket is not resolved after so many sprint,they give grace time to freeze it.he can assign the tickets randomly to the free person.
+This RPA bot could automatically pick the order and sent a message that order is picked and processed.It reduce the agents work who is intermediator and they are not able to work 24/7 that time BOT can do the agent's work. Evwything has API and every API has swagger which is an OpenAPI specifications are usually written in JSON or YAML format and define things like API endpoints, request/response formats, authentication methods, and more. This helps developers and clients understand how to interact with the API without having to read through extensive documentation.L1 is monitoring the applications.L4  is fix the bugs and do some enhancements if needed .After they corrected the issue.They changed the status inprogress to resolve and sent the scren shot to scrum master or TL and the they move it Testing team .If it is ok  and work fine .Then that update got approved from higher officials and it is deployed(ready to go)internsl release.Then it is test in production environment (live environment).The developers always done their changes local dev directories .They can implement this changes in production environment once it got approved from higher officals.For testing purposes all testcases are documented in .spec file in angular .It is very helpful for tester and future use. 

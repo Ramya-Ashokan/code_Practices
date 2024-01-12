@@ -1,0 +1,23 @@
+**Virgin Media Ireland Project Overview:**
+
+The Virgin Media Ireland project encompasses a diverse range of web applications such as Comet, Connected Partners, Temper, and Dcom, making it a significant and extensive initiative in Ireland. The project leverages technologies like C#, .NET, SSMS, and HangFire Jobs, enabling developers to handle issues on both the frontend and backend, as well as contribute to the development of new features.
+
+**Email Communication Issue:**
+
+A specific ticket addresses an email communication problem related to an individual API. The task involves updating all records in the "modified" column of the AWS email tracking table named "cust_cons." The error originates from an incorrect table join query in SSMS, where the developer mistakenly uses the same table instead of joining two different tables. The resolution involves correction by the developer and subsequent testing in the UAT environment. Once validated, the ticket is marked as solved, and higher officials are informed.
+
+**RPA Task Analysis:**
+
+Another critical ticket revolves around an RPA task titled "RPA Status Name Mismatch." This task, assigned a story point of 2, is overseen by the Scrum Master, Mathew. The Scrum Master's role involves monitoring tickets, moving them to the next sprint, extending deadlines when necessary, and randomly assigning tickets to available team members. The RPA bot automates order processing, reducing the workload of intermediating agents and sending notifications when orders are picked and processed. The project follows Agile methodologies, with tasks distributed among different levels, including L1 for monitoring applications and L4 for bug fixes and enhancements.
+
+**Agile Process and Development Flow:**
+
+The Agile process in the Virgin Media Ireland project is evident in its structured development flow. The correction of issues involves changing the status from "in progress" to "resolved," providing screenshots to the Scrum Master or Team Lead, moving the ticket to the Testing team, obtaining approval from higher officials, and deploying changes in the internal release. Testing is then conducted in the production environment.
+
+**Documentation and Testing Practices:**
+
+For testing purposes, all test cases are meticulously documented in .spec files in Angular, providing a clear reference for testers and future use. The use of Swagger for API specifications ensures transparency in API interactions, aiding developers and clients in understanding how to interact with the API without delving into extensive documentation.
+
+**Conclusion:**
+
+The Virgin Media Ireland project's structure, encompassing incremental issue resolution and validation through testing and approvals, aligns seamlessly with Agile principles. The iterative and collaborative nature of Agile methodologies enhances the efficiency and responsiveness of the development process, ensuring the project's success in handling a multitude of applications and tasks.

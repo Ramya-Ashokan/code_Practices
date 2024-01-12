@@ -1,0 +1,65 @@
+//while loop
+while [ true ]
+do
+        read -p "Enter the number: " num
+        if [ $num -gt 0 ]
+        then
+                echo "The multiply of number is `expr $num \* $num`"
+                break
+        elif [ $num -lt 0 ]
+        then
+                continue
+        else
+                break
+        fi
+done
+
+//for loop to print empty file
+for i in *
+do
+ if [ ! -s $i ]
+ then
+echo $i
+fi
+done
+~
+
+
+
+//function f1()
+{
+   echo "hello  f1"
+   echo $1
+   echo $2
+
+}
+ f1 10 20
+read -p "enter num 1:" num1
+
+read -p "enter num 2:" num2
+f1 $num1 $num2
+#add
+add()
+{
+echo "`expr $num1 +  $num2`"
+}
+#sub
+sub()
+{
+echo "`expr $num1 - $num2`"
+}
+#mul
+mul()
+{
+echo "`expr $num1 \* $num2`"
+}
+add $num1 $num2
+sub $num1 $num2
+mul $num1 $num2
+
+//array
+arr=(ramya divya gayathiri yamini 90.98 r 10 true)
+echo ${arr[@]}
+echo ${arr[*]}
+echo ${arr[0]}
+

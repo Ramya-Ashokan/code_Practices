@@ -1,0 +1,98 @@
+read -p "Enter num1:" num1
+if [ $num1 -gt 0 ]
+then
+   echo "$num1 is positive number"
+else
+  echo "$num1 is negative number"
+fi
+echo "bye"
+
+
+#username exist or not
+read -p "Enter the username:" name
+if grep $name /etc/passwd >/dev/null
+then
+    echo "$name is exist"
+else
+  echo "$name is not exist"
+fi
+
+
+
+#even or odd
+read -p "Enter num1:" num1
+if [ $num1 -gt 0 ]
+then
+   echo "$num1 is positive number"
+   if [ $num1 -lt 10 ]
+   then
+     echo "$num1 is single digit number"
+    if [ `expr $num1 % 2` -eq 0 ]
+     then
+      echo "$num1 is single digit even number"
+     else
+     echo "$num1 is single digit odd number"
+    fi
+   else
+  echo "$num1 is not a single digit"
+
+  fi
+else
+  echo "$num1 is negative number"
+fi
+
+//file test
+echo -n "Enter a file name:"
+read fname
+if [ -e $fname ]
+then
+   echo "$fname file exist"
+if [ -f $fname ]
+then
+  echo "$fname is regular file"
+elif [ -d $fname ]
+then
+  echo "$fname is directory file"
+else
+  echo "$fname is not a regular and directory file"
+fi
+else
+ echo "$fname file is not exist"
+fi
+
+//elif example
+read -p "Enter a number" num
+if [ $num -gt 0 ]
+then
+  echo "$num is positive number"
+elif [ $num -lt 0 ]
+then
+  echo "$num is negative number"
+elif [ $num  -eq 0 ]
+then
+  echo "$num is zero"
+fi
+
+echo "hello"
+echo "hi"
+
+//if
+echo -n "Enter your name "
+read name
+echo "Hi $name welcome"
+read -p "Enter your friend name:" friend_name
+
+
+echo "Hi $friend_name welcome"
+read -p "Enter file name:" file
+cat "$file"
+
+#if condition
+echo -n "Enter a filename to delete:"
+read file_name
+if rm $file_name 2>/dev/null
+then
+     echo "The given $file_name is deleted"
+else
+    echo "The given $file_name not exist"
+fi

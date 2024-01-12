@@ -1,0 +1,48 @@
+5 core skills help you avoid mistakes
+
+1.Adaptability
+2.Communication
+3.Problem Solving
+4.Prefessionalism
+5.Learning Agility
+
+How curious am I? ans: Rating 7
+
+CQA-The Method
+     Step-1
+        ->Identify the stakeholders(ourselves,gooogle, chatgpt)
+
+     Step-2 
+       ->Types of curiosity to ask question
+           1.Data/Information(mostly Tip)-D
+           2.Thoughts/Options-T
+           3.Feelings-Closests to truth-F
+           4.Intensions(Fast & easy)-I
+  
+
+3 Typical problems in corporate presentations  
+         1.Context setting(too much time to get started)
+         2.Information overload
+         3.To much textual information in slides
+
+Story Elements(U-PSA)
+         ->Problem
+         ->Solution
+         ->Achievment
+         ->Unusual
+
+1.find out the sticky element (Start with a Hook=Problem)which is that audience already know 
+2. inspiration,insight and learning -corporate audience wants  
+100% -presentation 
+  ->65% emotion(audience want more)
+  ->10% cred
+  ->25% data
+
+
+
+ unexpected information
+ picture get more attention compare to text
+  Dailie
+  Use many metaphor(It is very powerful)
+  
+ Gen AI Agent
